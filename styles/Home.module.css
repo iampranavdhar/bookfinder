@@ -1,0 +1,61 @@
+.container {
+  max-width: 1260px;
+  margin: 0 auto;
+  padding: 20px;
+  padding: 80px 0;
+}
+
+.container::-webkit-scrollbar {
+  display: none;
+}
+
+.app_title {
+  color: white;
+  font-size: 2.5rem;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+}
+
+.books_count_metric {
+  width: 350px;
+  height: 150px;
+  background-color: azure;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.books_icon {
+  width: 100px;
+  height: 100px;
+  font-size: 60px;
+  background-color: #ef9313;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.books_count_data {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (max-width: 768px) {
+  .books_count_metric {
+    width: 100%;
+  }
+  .container{
+    padding: 80px 20px;
+  }
+}
